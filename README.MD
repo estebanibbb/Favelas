@@ -1,17 +1,24 @@
-# Favelas
+# Favelas - Sistema de Autenticación OTP
 
-Sistema de autenticación con OTP (One-Time Password) usando FastAPI en backend y JavaScript en frontend.
+Sistema de autenticación que envía códigos OTP (One-Time Password) por correo electrónico.  
+Desarrollado con **FastAPI** (backend) y **JavaScript/HTML/CSS** (frontend).
+
+---
 
 ## 📋 Requisitos previos
 
 - Python 3.8 o superior
 - Git
-- Cuenta de correo para pruebas SMTP (Gmail, Outlook, etc.)
+- Cuenta de correo (Gmail, Outlook, etc.) para pruebas SMTP
+- Navegador web moderno
+
+---
 
 ## 🚀 Instalación y ejecución
 
-### Backend
+### Backend (FastAPI)
 
-1. Abrir terminal en la carpeta `backend/`
+1. Clonar el repositorio y entrar a la carpeta del backend:
 ```bash
-cd backend
+git clone https://github.com/Sebasbehe/Favelas.git
+cd Favelas/backend
